@@ -1,0 +1,502 @@
+
+
+button{
+  width: 100px;
+  align-self: center;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  height: 36px;
+}
+
+
+html,body{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+#top{
+  display: block;
+  background-color: rgb(44, 42, 48);
+  margin-top: 0px;
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  height: initial;
+  align-content: center;
+  width: 100%;
+}
+
+#top nav{
+  display: inline-block;
+  color: black;
+}
+
+
+.btn-outline-success {
+  color: black;
+  border-color: black;
+  text-align: center;
+  width: 72px;
+  height: 34px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button; 
+}
+.fixed-top {
+  height: 100px;
+  padding-top: 0px;
+  /* display: inline-block; */
+}
+.dropdown a{
+  text-decoration: none;
+}
+
+.logo input{
+  height: 45px; 
+  width: 200px; 
+  display: inline-block; 
+  background: rgb(98, 94, 105);
+  font-size: large;
+}
+
+ul{
+  display: inline-flex; 
+  list-style-type: none; 
+  padding-left: 0px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menuDisplay
+{
+  height: 45px;
+  width: auto;
+  display: inline-block;
+  background: rgb(168, 165, 173);
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:rgb(199, 197, 197) ;}
+
+nav.navbar-expand-md.navbar-dark.left{
+    margin-right: 0px;
+    padding: 0px 0px;
+
+}
+input#txtsearch{
+    height:45px ;
+}
+
+button#btnSearch{
+    height: 45px;
+    background-color: black;
+}
+
+form.example{
+  width: 1200px;
+  margin-left: 100px;
+}
+
+  
+.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+  /* display: inline-block; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.example button {
+  width: 10%;
+  
+  background: #2125295c;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+button.navbar-toggler{
+  padding: 0px 0px;
+    width: 52px;
+}
+
+#Display{
+  margin-top: 100px;
+}
+body {
+	padding-top:60px;
+}
+body, blockquote p {
+	font-size:13px;
+}
+
+h2 {
+	font-size:1.4em;
+}
+h3 {
+	font-size:1.2em;
+}
+.closest h2, .favourites h2 {
+	margin-bottom:0;
+}
+
+td[colspan] {
+	background:#eee;
+}
+table form {
+	margin-bottom:0;
+}
+
+label {
+	font-weight:normal;
+}
+
+.navbar {
+	background:rgba(238,238,238,0.9);
+}
+.navbar-brand img {
+	width:1.2em;
+	height:1.2em;
+	margin:-3px 2px 2px 0;
+	/* display:inline; */
+}
+.navbar-brand span {
+	font-size:10px;
+	color:red;
+	display:inline-block;
+	padding-left:5px;
+}
+.navbar-form {
+	margin-right:0;
+}
+
+.minimap {
+	margin:0 20px 20px 0;
+	width:180px;
+	height:75px;
+}
+.locations ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.locations .current {
+	position:relative;
+	background:#eee;
+	padding:3px 5px;
+	margin:3px 0;
+	width:100%;
+}
+.locations .current:after, .locations .current:before {
+	border: solid transparent;
+	content: ' ';
+	height: 0;
+	left: 100%;
+	position: absolute;
+	width: 0;
+}
+
+.locations .current:after {
+	border-width: 13px;
+	border-left-color: #eee;
+	top: 0px;
+}
+
+.locations .current:before {
+	border-width: 100%;
+	border-left-color: #eee;
+	top: 0px;
+}
+
+.location h1 {
+	display:inline-block;
+}
+.location a {
+	color:inherit;
+}
+#times dl {
+	padding-top:3px;
+}
+
+.weather h2 {
+	font-size:1.2em;
+}
+.weather dl {
+	margin-bottom:14px;
+}
+.weather dt {
+	display:none;
+}
+.weather .popover-content {
+	width:250px;
+}
+.weather .popover-content dt {
+	display:block;
+	width:auto;
+	margin-right:1em;
+}
+.weather .humidity, .weather .visibility, .weather .predictability, .weather .dewpoint {
+	display:block;
+}
+.weather .humidity, .weather .predictability {
+	margin-top:10px;
+}
+.weather dd {
+	margin-left:0;
+}
+.weather-sml {
+	text-align: left
+}
+.weather-sml h2 {
+	font-size:1.5em;
+	text-align:left;
+}
+.weather-sml h3 {
+	font-size:1.1em;
+}
+.weather-sml p {
+	margin-top:10px;
+	font-size:80%;
+}
+
+/* WEATHER STATE */
+.state-icon-graph, .state-icon-tiny, .state-icon-sml, .state-icon-lrg {
+	display:inline-block;
+}
+.state-icon-graph {
+	width:24px;
+	height:24px;
+}
+.state-icon-tiny {
+	width:1em;
+	height:1em;
+	margin-right:2px;
+}
+.state-icon-sml {
+	width:32px;
+	height:32px;
+	margin:0 5px 0 0;
+}
+.state-icon-lrg {
+	width:50px;
+	height:50px;
+	margin:0 5px 0 0;
+}
+
+.state-sn {background:url("/static/img/weather/sn.svg")}
+.state-sl {background:url("/static/img/weather/sl.svg")}
+.state-h {background:url("/static/img/weather/h.svg")}
+.state-t {background:url("/static/img/weather/t.svg")}
+.state-hr {background:url("/static/img/weather/hr.svg")}
+.state-lr {background:url("/static/img/weather/lr.svg")}
+.state-s {background:url("/static/img/weather/s.svg")}
+.state-hc {background:url("/static/img/weather/hc.svg")}
+.state-lc {background:url("/static/img/weather/lc.svg")}
+.state-c {background:url("/static/img/weather/c.svg")}
+
+.weatherstate {
+	margin-bottom:10px;
+}
+.weather-lrg .weatherstate {
+	cursor: pointer;
+	cursor: hand;
+}
+
+/* WIND */
+.wind {
+	margin-top:10px;
+}
+.wind .dir {
+	display:inline-block;
+	width:1em;
+	height:1em;
+	background:url('/static/img/windarrow.svg');
+	background-size: 100% 100%;
+}
+.wind .dir-nne {transform: rotate(22.5deg)}
+.wind .dir-ne {transform: rotate(45deg)}
+.wind .dir-ene {transform: rotate(67.5deg)}
+.wind .dir-e {transform: rotate(90deg)}
+.wind .dir-ese {transform: rotate(112.5deg)}
+.wind .dir-se {transform: rotate(135deg)}
+.wind .dir-sse {transform: rotate(157.5deg)}
+.wind .dir-s {transform: rotate(180deg)}
+.wind .dir-ssw {transform: rotate(202.5deg)}
+.wind .dir-sw {transform: rotate(225deg)}
+.wind .dir-wsw {transform: rotate(247.5deg)}
+.wind .dir-w {transform: rotate(270deg)}
+.wind .dir-wnw {transform: rotate(292.5deg)}
+.wind .dir-nw {transform: rotate(315deg)}
+.wind .dir-nnw {transform: rotate(337.5deg)}
+
+#locationmap {
+	width:100%;
+	height:300px;
+	margin-top:20px;
+}
+#locationmap img {
+	max-width:inherit;
+}
+
+#report ul {
+	padding:0;
+	list-style:none;
+}
+#report select {
+	width:100%;
+}
+
+.weatherhistory dd {
+    margin:0;
+}
+.weatherhistory dt {
+	display:none;
+}
+.weatherhistory .weatherstate img {
+	width:32px;
+	height:32px;
+	margin:0 3px 0 0;
+}
+
+.sources img {
+	width:16px;
+	height:16px;
+}
+
+.weathergraph {
+	overflow-x:scroll;
+}
+.firstdate, .lastdate {
+	vertical-align:top;
+}
+.firstdate div, .lastdate div {
+	width:75px;
+}
+.firstdate {
+	padding-right:10px;
+	text-align: right;
+}
+.lastdate {
+	padding-left:10px;
+}
+.weathergraph table {
+	margin-top:1.2em;
+}
+.tempgraph, .windgraph {
+	font-size:0.8em;
+}
+.tempgraph div {
+	width:24px;
+	padding-top:15px;
+}
+.windgraph .wind {
+	padding:5px 0;
+}
+.windgraph .wind .dir {
+	width:18px;
+	display:block;
+}
+
+.rss {
+	background:url('/static/img/rss.png') no-repeat;
+	padding-left:18px;
+}
+#preferences h3 {
+	line-height:inherit;
+	font-size:1.1em;
+	margin:0;
+}
+#preferences .nav {
+	margin-bottom:0;
+}
+#preferences .nav-pills > li > a {
+	padding:4px 6px;
+}
+#preferences .active {
+	font-weight:bold;
+	color:#000;
+}
+
+footer {
+	border-top:1px solid #ddd;
+	margin:40px 0;
+	padding-top:10px;
+}
+
+
+
+
+div.pull-right{
+  width:300px;
+  height:250px; 
+  margin-top:20px;
+}
+
+a#dropdown09{
+  color: #000;
+}
+
+@media 
+only screen and (max-width: 720px) 
+{
+
+	table,td, tr { 
+		display: block; 
+    }
+
+    input#txtsearch{
+        width: 290px;
+    }
+    button#btnsearch{
+        width: 29px;
+    }
+    ul#navigation{
+      display: grid;
+
+    }   
+   
+}
